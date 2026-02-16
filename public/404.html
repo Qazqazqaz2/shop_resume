@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Магазин софта и баз данных" />
+    <title>Software Shop - Магазин софта и баз данных</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Редирект для GitHub Pages SPA - перенаправляем на index.html
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      var basePath = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
+      var redirectPath = basePath + '/index.html' + l.pathname.slice(basePath.length) + l.search + l.hash;
+      l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + redirectPath);
+    </script>
+  </head>
+  <body>
+    <noscript>Вам нужно включить JavaScript для работы этого приложения.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
