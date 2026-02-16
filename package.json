@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Магазин софта и баз данных - портфолио проект",
   "homepage": "https://Qazqazqaz2.github.io/shop_resume",
-  "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -34,5 +33,6 @@
     ]
   }
 }
+
 
 
